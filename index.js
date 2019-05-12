@@ -17,7 +17,7 @@ api.get(['/line', '/l', '/r', '/random'], (req, res) => {
   res.send(line.line)
 })
 api.get(['/all', '/list', '/a', '/allLines'], (req, res) => {
-  res.json(quotes)
+  res.json(lines)
 })
 api.get(['/num', 'number', '/n'], (req, res) => {
   res.json(Object.keys(lines).length)
@@ -31,7 +31,7 @@ This microservice just gives you some pickup lines that will definitely work
     - returns the number of pickup lines in the db
 - /a
     - returns **all** of the pickup lines in the db
-    
+
 https://github.com/joshkmartinez/pickup-lines
   `)
 })
