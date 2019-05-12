@@ -1,0 +1,20 @@
+{
+  "name": "pickup-lines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "now dev",
+    "deploy": "now",
+    "postdeploy": "now alias"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "now": "^15.2.0"
+  }
+}
