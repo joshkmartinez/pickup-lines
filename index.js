@@ -1,7 +1,6 @@
 var express = require('express')
 var app = express()
-var lines = require('./lines')
-
+const lines = require('./lines')
 const api = express.Router()
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*')
@@ -12,9 +11,8 @@ app.use(function(req, res, next) {
   next()
 })
 api.get(['/line', '/l', '/r', '/random'], (req, res) => {
-  var line = lines[Math.floor(Math.random() * lines.length)]
-  console.log(line)
-  res.send(line.line)
+  res.set('Content-Type', 'text/plain')
+  res.send(lines[Math.floor(Math.random() * lines.length)])
 })
 api.get(['/all', '/list', '/a', '/allLines'], (req, res) => {
   res.json(lines)
