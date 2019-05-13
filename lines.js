@@ -45,5 +45,7 @@ module.exports = [
   'Let me stick my usb drive in your usb port.',
   'Are you a keyboard, because you are my type.',
   'If they made you in c you would be a pointer to my heart.',
-  "(me != me) (me += you)"
+  '(me != me) (me += you)',
+  "Are you a CPU? You're critical to the machine that is my life.",
+  "Are you a motherboard? I'd love to plug in to your socket."
 ]
