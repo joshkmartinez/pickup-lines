@@ -47,5 +47,7 @@ module.exports = [
   'If they made you in c you would be a pointer to my heart.',
   '(me != me) (me += you)',
   "Are you a CPU? You're critical to the machine that is my life.",
-  "Are you a motherboard? I'd love to plug in to your socket."
+  "Are you a motherboard? I'd love to plug in to your socket.",
+  'sudo go on a date with me.',
+  "I'd learn how to exit vim for you."
 ]
