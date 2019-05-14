@@ -17,12 +17,13 @@ api.get(['/line', '/l', '/r', '/random'], (req, res) => {
 api.get(['/all', '/list', '/a', '/allLines'], (req, res) => {
   res.json(lines)
 })
+
 api.get(['/num', 'number', '/n'], (req, res) => {
   res.json(Object.keys(lines).length)
 })
 api.get('/', (req, res) => {
   res.send(`
-This microservice just gives you some pickup lines that will definitely work
+This microservice just gives you some pickup lines that will definitely work.
 - /r
     - returns a random pickup line
 - /n
