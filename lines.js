@@ -22,7 +22,7 @@ module.exports = [
   'Are you a node module? because I always want to require you.',
   "Girl are you css? 'cause you got class.",
   'I got a 404 in my chest.',
-  'You are like a semicolon, without you everything falls apart.',
+  'You are like a semicolon; without you everything falls apart.',
   "Would you add your number to my phone's global scope?",
   'Ready to git commit ted?',
   'If you give me the chance, you will never have to create another branch.',
